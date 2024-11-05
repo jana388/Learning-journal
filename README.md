@@ -19,6 +19,6 @@ I have tried to make a code for the Cube moved by the computer. I want the other
 
 ## 2024-11-05 
 
-Today I am going to work on the Game Controller, so the program knows when the ball reaches the goal and restarts the game. 
+Today I am going to work on the Game Controller, so the program knows when the player scores a goal and restarts the game. 
 
 
