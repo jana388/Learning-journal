@@ -19,6 +19,6 @@ I have tried to make a code for the Cube moved by the computer. I want the other
 
 ## 2024-11-05 
 
-Today I am going to work on the Game Controller, so the program knows when the player scores a goal and restarts the game. 
+Today I am going to work on the Game Controller, so the program knows when the player scores a goal and restarts the game.I managed to write an event that is triggered when the ball scores the goal, so that the game knows when one of the players score the goal. After having this done, I realised that my AI player is flawless and manages to get every ball, so my plkayer is never able to score the goal. To make it more flawed, I decreased the speed of the Ai, so when the ball comes from a sharp angle, it might not be able to reach the ball before it scores the goal.
 
 
