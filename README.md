@@ -24,6 +24,6 @@ Today I am going to work on the Game Controller, so the program knows when the p
 ## 2024-11-12
 
 Finished the UI for the score count (left and right). Also added a code that destroys the ball after reaching the goal. Had issues afterwards, because after the game restarts, the ball did not spawn back, and because there was no ball, neither of the players were able to move.
-To fix this issue, I added  the ball spawn in Game Controller , so after every score, the ball spawns after 0.5f in the same position of the terrain (and it goes in a different direction).
+To fix this issue, I added  the ball spawn in Game Controller , so after every score, the ball spawns after 0.5f in the same position of the terrain (and it goes in a different direction). There was a NullReferenceException error when the ball wasn't in the game, so in the player script I wrote some code to try to find the ball, and if it didn't exist, then the code would not run because I returned out of the function.
 
 
