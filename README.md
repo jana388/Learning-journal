@@ -19,6 +19,11 @@ I have tried to make a code for the Cube moved by the computer. I want the other
 
 ## 2024-11-05 
 
-Today I am going to work on the Game Controller, so the program knows when the player scores a goal and restarts the game.I managed to write an event that is triggered when the ball scores the goal, so that the game knows when one of the players score the goal. After having this done, I realised that my AI player is flawless and manages to get every ball, so my plkayer is never able to score the goal. To make it more flawed, I decreased the speed of the Ai, so when the ball comes from a sharp angle, it might not be able to reach the ball before it scores the goal.
+Today I am going to work on the Game Controller, so the program knows when the player scores a goal and restarts the game.I managed to write an event that is triggered when the ball scores the goal, so that the game knows when one of the players score the goal. After having this done, I realised that my AI player is flawless and manages to get every ball, so my player is never able to score the goal. To make it more flawed, I decreased the speed of the AI, so when the ball comes from a sharp angle, it might not be able to reach the ball before it scores the goal. Started working on the UI (score count).
+
+## 2024-11-12
+
+Finished the UI for the score count (left and right). Also added a code that destroys the ball after reaching the goal. Had issues afterwards, because after the game restarts, the ball did not spawn back, and because there was no ball, neither of the players were able to move.
+To fix this issue, I added  the ball spawn in Game Controller , so after every score, the ball spawns after 0.5f in the same position of the terrain (and it goes in a different direction).
 
 
