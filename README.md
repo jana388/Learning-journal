@@ -28,6 +28,11 @@ To fix this issue, I added  the ball spawn in Game Controller , so after every s
 
 ## 2024-11-18
 
-Today I will continue working on my tutorial for player-movement. 
+Today I will continue working on my tutorial for player-movement.
+
+## 2024-11-19
+
+Today I have learned how to upload my Unity project to a GitHub repository.
+
 
 
