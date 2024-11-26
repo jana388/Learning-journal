@@ -36,7 +36,7 @@ Today I have learned how to upload my Unity project to a GitHub repository.
 
 ## 2024-11-26
 
-I have reorganised my tutorials and the way I will do them. Since they have to be separated from each other and independent, I have erased all the information it contained about my project. I have divided my tutorials on Player movement, Ai movement led by a ball, Score goal system and UI system. I also realised that this will make my
+During our stand up meeting, I have realised that the tutorials are supposed to be independent from our prototype game. I initially planned to make the tutorials connected in order to build my protoype gmae. That is why I have reorganised my tutorials and tried to separate them from my project. I started writing my tutorial for Player movement from scratch so it does not have any information linked to my prototype (as it used to have). other than that, I have divided my tutorials into Player movement, Ai movement (following another object), Score goal system and UI system. Although explaining the tutorials without my game to rely on might be a bit daunting, it seems like it will be easier to understand the tutorials without having to follow another.
 
 
 
