@@ -28,7 +28,7 @@ To fix this issue, I added  the ball spawn in Game Controller , so after every s
 
 ## 2024-11-18
 
-Today I will continue working on my tutorial for player-movement.
+Today I will continue working on my tutorial for player-movement. I have collected all the screenshots and edited them in Procreate so they seem more interesting and easier to follow.
 
 ## 2024-11-19
 
