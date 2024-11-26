@@ -34,5 +34,9 @@ Today I will continue working on my tutorial for player-movement.
 
 Today I have learned how to upload my Unity project to a GitHub repository.
 
+## 2024-11-26
+
+I have reorganised my tutorials and the way I will do them. Since they have to be separated from each other and independent, I have erased all the information it contained about my project. I have divided my tutorials on Player movement, Ai movement led by a ball, Score goal system and UI system. I also realised that this will make my
+
 
 
