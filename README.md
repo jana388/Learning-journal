@@ -41,5 +41,6 @@ During our stand up meeting, I have realised that the tutorials are supposed to 
 ## 2024-12-03
 Today I am going to finish my first tutorial on Player Movement. I was planning on finishing it last week, but I realised how thorough the tuorial has to be. It took me a long time to take the screenshots, edit the text, and find an aproppriate way to explain the code and the process of setting up the project. I am trying to finish this tutorial today, because I still have three tutorials to do which will be as much time consuming the first one.
 
+## 2024-12-
 
 
