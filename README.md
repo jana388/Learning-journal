@@ -42,8 +42,8 @@ During our stand up meeting, I have realised that the tutorials are supposed to 
 Today I am going to finish my first tutorial on Player Movement. I was planning on finishing it last week, but I realised how thorough the tuorial has to be. It took me a long time to take the screenshots, edit the text, and find an aproppriate way to explain the code and the process of setting up the project. I am trying to finish this tutorial today, because I still have three tutorials to do which will be as much time consuming the first one.
 
 ## 2024-12-24
-I have made a draft for my Ai-movement tutorial. I have planned the text for the tutorial, but I still have to perfect it and add some final touches to it like pictures and sample videos.
+I have made a draft for my Ai-movement tutorial. I wanted to make a tutorial of how other object can follow our player that is moving left and right. I have planned the text for the tutorial, but I still have to perfect it and add some final touches to it like pictures and sample videos.
 
 ## 2024-12-25
-
+I started working on my UI tutorial.
 
