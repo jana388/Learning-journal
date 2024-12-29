@@ -41,9 +41,17 @@ During our stand up meeting, I have realised that the tutorials are supposed to 
 ## 2024-12-03
 Today I am going to finish my first tutorial on Player Movement. I was planning on finishing it last week, but I realised how thorough the tuorial has to be. It took me a long time to take the screenshots, edit the text, and find an aproppriate way to explain the code and the process of setting up the project. I am trying to finish this tutorial today, because I still have three tutorials to do which will be as much time consuming the first one.
 
+## 2024-12-10
+I have made another repository for my Ai-movement tutorial. It is going to be about how to make another object move according to the player. I started planning on how to make it. With the help of my prototype, I already had some code and an idea of how to construct the tutorial. Nevertheless, since the tutorials have to be independent and not extend  on the previous tutorials, I still needed some time to organise how the tutorial will look.
+
+## 2024-12-20
+I continued working on Ai-movement tutorial. I added a prerequisite on Player movement script for this tutorial so I do not have to explain thoroughly again on how to make it. I wanted this tutorial to be solely based on Ai-movement script. With setting this prerequisite, the focus is on that script. Altough I have a similiar script in my prototype game, I wanted to make another Unity project so I can have a fresh page where I can start from scratch. On the other hand, there are a lot of extra objects and scripts in my prototype game which I did not want to include in the tutorial, because it would confuse the reader. What is more, it will help me practice coding a bit more.
+
 ## 2024-12-24
-I have made a draft for my Ai-movement tutorial. I wanted to make a tutorial of how other object can follow our player that is moving left and right. I have planned the text for the tutorial, but I still have to perfect it and add some final touches to it like pictures and sample videos.
+I have made a draft for my Ai-movement tutorial. I have planned the text for the tutorial, and made a new script for Player-movement and Ai-movement. I also took the screenshots of the progress that I added to the tutorial.
 
 ## 2024-12-25
-I started working on my UI tutorial.
+I started working on my UI tutorial. My goal is to make a tutorial on how to show a text on screen when playing a game. For now I was planning to work on a tutorial on how to make a Ui in Unity. But if I manage to finish my fourth tutorial, I would like to add some code, for example, increase a score with an if statement. For now I gathered all the information on editing the UI in Unity.
+
+##
 
