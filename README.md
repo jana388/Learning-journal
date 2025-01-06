@@ -53,5 +53,6 @@ I have made a draft for my Ai-movement tutorial. I have planned the text for the
 ## 2024-12-25
 I started working on my UI tutorial. My goal is to make a tutorial on how to show a text on screen when playing a game. For now I was planning to work on a tutorial on how to make a Ui in Unity. But if I manage to finish my fourth tutorial, I would like to add some code, for example, increase a score with an if statement. For now I gathered all the information on editing the UI in Unity.
 
-##
+## 2025-01-05
+Today I finished my final tutorial about the Goal manager. By explaining the events it helped me gather all the information to make it more clear for me to understand too
 
