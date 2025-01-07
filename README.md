@@ -7,11 +7,11 @@ Today I created a learning journal.
 
 ## 2024-10-21
 
-Planning the concept of the game and the tutorials I could make that would be useful in the future projects. I wanted to start with something simple but also fundamental to any game.
+Planning the concept of the game and the tutorials I could make that would be useful in the future projects. I wanted to start with something simple but also fundamental for any game.
 
 ## 2024-10-22
 
-I figured I wanted to make a game similiar to Pong, since it contains all the fundamental scripts to make a game. I found a useful tutorail on Youtube which has all most of the scripts I need for my prototype. I chose this tutorial because i wanted to practice some simple codes but I wanted to challenge myself in a 3D environment. This is a link to the tutorial (https://www.youtube.com/watch?v=b3xgCUlst88&t=2789s). I have managed to make a script for the player movement. I enabled a cube to move left and right on the Z axis by pressing *A* and *D*. I have used an input system which was new to me, but I don't encounter any difficulties so far. 
+I figured I wanted to make a game similiar to Pong, since it contains all the basic scripts to make a game. I found a useful tutorail on Youtube which has all most of the scripts I need for my prototype. I chose this tutorial because I wanted to practice some simple codes but I also wanted to challenge myself in a 3D environment. This is a link to the tutorial (https://www.youtube.com/watch?v=b3xgCUlst88&t=2789s). I have managed to make a script for the player movement. I enabled a cube to move left and right by pressing *A* and *D*. I have used an input system which was new to me, but I don't encounter any difficulties so far. 
 
 After that I worked on the ball movement. It took me a while to learn how to manipulate the ball's movement. I ran into a problem when trying to change the direction of the ball when it hits the wall or the racket (cube). Instead of switching to the opposite direction like it would pick a different direction. The only mistake I made was picking the right axis when rerouting the ball. After figuring out which one I needed to use, the problem was solved.
 
@@ -55,21 +55,21 @@ Other than that, I did some more brainstorming on what my tutorials will be. For
 Today I am finishing up my tutorial for Player Movement. I was planning on finishing it last week, but I realised how thorough the tutorial was. Since I planned it to be a beginner friendly tutorial, it took me a long time to organise it and explain thoroughly. It took me a while to take the screenshots, explain the steps and the functions.
 
 ## 2024-12-10
-I have made another repository for my Ai-movement tutorial. This tutorial will explain how to make a script for an object to follow another object. I started organising the text and the script. With the help of my prototype, I already had some code and an idea of how to construct the tutorial. Nevertheless, I made a new Unity project so I could start making it from scratch.
+I have made new repository for my Ai-movement tutorial. This tutorial will explain how to make a script for an object to follow another object. I started organising the text and the script. With the help of my prototype, I already had some code and an idea of how to construct the tutorial. Nevertheless, I made a new Unity project so I could start making it from scratch.
 
 ## 2024-12-20
 
 I continued working on Ai-movement tutorial. I added some prerequisites so I would not get stuck with explaining the basics again. 
 
 For example, I gave a prerequisite for knowing how to use Unity's basic and to have a script for the Players' movement script. I wanted this tutorial to be solely based on Ai-movement script. By setting these prerequisites, the focus will be only on Ai script. Having to make a script from scratch has helped me focus on this code, but it has also helped me practice this code a bit more. I had a chance to alter the code a bit.
-On the other hand, there are a lot of extra objects and scripts in my prototype game which I did not want to include in the tutorial, because it would confuse the person who is following my tutorial. 
+On the other hand, there are a lot of extra objects and scripts in my prototype game which I did not want to include in the tutorial because it would confuse the person who is following it. 
 
 ## 2024-12-25
 
 I started working on my UI-arrangement tutorial. My goal is to make a tutorial on how to show a text on screen when playing a game. For now I was planning to work on a tutorial on how to make a UI in Unity. But if I manage to finish my fourth tutorial, I would like to add some code, for example, increase a score with an if statement. 
-While writing the tutorial, I spotted a little detail in the Hierarchy I have not seen before. I have not realised that when making a UI panel, it also comes with a Canvas and an Event System. After doing some reasearch and trying to give an explanation in the tutorails, it helped me understand it better.
+While writing the tutorial, I spotted a little detail in the Hierarchy. I have not realised that when making a UI panel, it also comes with a Canvas and an Event System. After doing some research and trying to give an explanation in the tutorails, it helped me understand it better.
 I spent a couple of days working on this tutorial, and trying to organise the layout.
 
 ## 2025-01-05
-Today I started working on my final tutorial, Goal manager. I managed to finish the draft in a day, but I still need some time to polish it. It was a bit more difficult than the making of the Ui tutorial, since this was more programming based. This This By gathering all the information about how the events work 
+Today I started working on my final tutorial, Goal-Manager. I managed to finish the draft in a day, but I still need some time to polish it. It was a bit more demanding than the Ui tutorial, since it was more programming based. By gathering all the information about how the events work, I had a better vision of how they operate, and why we use them when making games.
 
