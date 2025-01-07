@@ -7,24 +7,33 @@ Today I created a learning journal.
 
 ## 2024-10-21
 
-Planning the concept of the game and the tutorials I could make that would be useful in the future projects.
+Planning the concept of the game and the tutorials I could make that would be useful in the future projects. I wanted to start with something simple but also fundamental to any game.
 
 ## 2024-10-22
 
-I figured I wanted to make a game similiar to Pong game, since it contains all the fundamental scripts to make any game. To make this game more interesting, I made it a 3D project. This will later enable me to play with the theme, animations and shaders later on. I have made a script for the player and ball movement. No errors occured, a solid start.
+I figured I wanted to make a game similiar to Pong, since it contains all the fundamental scripts to make a game. I found a useful tutorail on Youtube which has all most of the scripts I need for my prototype. I chose this tutorial because i wanted to practice some simple codes but I wanted to challenge myself in a 3D environment. This is a link to the tutorial (https://www.youtube.com/watch?v=b3xgCUlst88&t=2789s). I have managed to make a script for the player movement. I enabled a cube to move left and right on the Z axis by pressing *A* and *D*. I have used an input system which was new to me, but I don't encounter any difficulties so far. 
+
+After that I worked on the ball movement. It took me a while to learn how to manipulate the ball's movement. I ran into a problem when trying to change the direction of the ball when it hits the wall or the racket (cube). Instead of switching to the opposite direction like it would pick a different direction. The only mistake I made was picking the right axis when rerouting the ball. After figuring out which one I needed to use, the problem was solved.
 
 ## 2024-10-29
 
-I have tried to make a code for the Cube moved by the computer. I want the other player to follow the ball on the x axis (move left and right). The code did not want to work at first, since I have mixed up the axis and written the computer to move on z axis instead. After figuring this out, the code went smoothly. Since I have already made the code for the player, ball , and AI movement, the next step is to write the tutorials on this and start writing the code for the restart of the game. I want the game to restart when the ball exits the platform.
+I have tried to make a code for the Cube moved by the computer (Ai-movement). I want the other player to follow the ball (move left and right). Since I was following the youtube tutorial for the Ai movement as well, I have not realised that they positioned the whole platform and the player facing a different direction. So I ran into a problem when writing the script for the Ai. The code did not want to work at first, because I picked a z axis (like in the tutorial) so the cube was not able to follow the cube. After fixing the axis to x, the code went smoothly. 
 
 ## 2024-11-05 
 
-Today I am going to work on the Game Controller, so the program knows when the player scores a goal and restarts the game.I managed to write an event that is triggered when the ball scores the goal, so that the game knows when one of the players score the goal. After having this done, I realised that my AI player is flawless and manages to get every ball, so my player is never able to score the goal. To make it more flawed, I decreased the speed of the AI, so when the ball comes from a sharp angle, it might not be able to reach the ball before it scores the goal. Started working on the UI (score count).
+Today I am going to work on the Goal Controller, which will enable the ball to be destroyed when touching the goal.
+I used an Event system so that it the goal could connect with the ball. This will let the game know when one of the players has scored a goal. 
+
+After testing the prototype for a bit, I realised that my AI player is flawless and manages to track the ball's movement without missing it, making it impossible for me to score a goal. That is why I decreased the speed of the AI, so when the ball comes from a sharp angle, it will not be able to reach the ball quickly enough, giving me a shot to score a goal. 
+
+I also started working on the UI (score count). I wanted to have a display so that the game could count the number of goals we have scored.
 
 ## 2024-11-12
 
-Finished the UI for the score count (left and right). Also added a code that destroys the ball after reaching the goal. Had issues afterwards, because after the game restarts, the ball did not spawn back, and because there was no ball, neither of the players were able to move.
-To fix this issue, I added  the ball spawn in Game Controller , so after every score, the ball spawns after 0.5f in the same position of the terrain (and it goes in a different direction). There was a NullReferenceException error when the ball wasn't in the game, so in the player script I wrote some code to try to find the ball, and if it didn't exist, then the code would not run because I returned out of the function.
+Finished the UI for the score count. Although it was simple to set it up in Unity, I also needed to make some code, so the score actually goes up when we score a goal. 
+That is why I made a Game Controller script that will operate the game. In this script, I have written a script for the score count: When a player scores a goal, it will get a point, and when the Ai scores a goal, it will get a point. 
+Had issues afterwards, because after one scores a goal, the ball did not spawn back. And because there was no ball, none of the players were able to move.
+To fix this issue, I added the ball spawn in Game Controller, so after every score, the ball spawns back to its initial position after 0.5f and it randomises the direction of the movement. There was a NullReferenceException error when the ball wasn't in the game, so in the player script I wrote some code to try to find the ball, and if it didn't exist, then the code would not run because I returned out of the function.
 
 ## 2024-11-18
 
@@ -42,7 +51,7 @@ During our stand up meeting, I have realised that the tutorials are supposed to 
 Today I am going to finish my first tutorial on Player Movement. I was planning on finishing it last week, but I realised how thorough the tuorial has to be. It took me a long time to take the screenshots, edit the text, and find an aproppriate way to explain the code and the process of setting up the project. I am trying to finish this tutorial today, because I still have three tutorials to do which will be as much time consuming the first one.
 
 ## 2024-12-10
-I have made another repository for my Ai-movement tutorial. It is going to be about how to make another object move according to the player. I started planning on how to make it. With the help of my prototype, I already had some code and an idea of how to construct the tutorial. Nevertheless, since the tutorials have to be independent and not extend  on the previous tutorials, I still needed some time to organise how the tutorial will look.
+I have made another repository for my Ai-movement tutorial. It is going to be about how to make another object follow the movement of the player. I started planning on how to make it. With the help of my prototype, I already had some code and an idea of how to construct the tutorial. Nevertheless, since the tutorials have to be independent and not extend  on the previous tutorials, I still needed some time to organise how the tutorial will look.
 
 ## 2024-12-20
 I continued working on Ai-movement tutorial. I added a prerequisite on Player movement script for this tutorial so I do not have to explain thoroughly again on how to make it. I wanted this tutorial to be solely based on Ai-movement script. By setting this prerequisite, the focus will be only on Ai script. Although I had this script in my prototype game, I made a new Unity project specifically for this code so I can start explaining from scratch. Not only has it helped me to focus on this code, but it has also helped me practice this code a bit more. On the other hand, there are a lot of extra objects and scripts in my prototype game which I did not want to include in the tutorial, because it would confuse the reader. What is more, it will help me practice coding a bit more.
