@@ -49,21 +49,27 @@ I initially planned to make the tutorials connected, so I wanted it to be like a
 
 I started writing my tutorial for Player movement from scratch so it does not have any information linked to my prototype (as it used to have). I used the same code from the prototype, but have made a separate Unity project.
 
-Other than that, I did some more brainstorming on what my tutorials will be. For now I have Player movement, and Ai movement (following another object), planned, but I was thinking of making a tutorial for Score manager and UI system.
+Other than that, I did some more brainstorming on what my tutorials will be. For now I have Player movement, and Ai movement *(an object following another object)* planned, but I was thinking of making a tutorial for Score manager and UI system.
 
 ## 2024-12-03
-Today I am finishing up my tutorial on Player Movement. I was planning on finishing it last week, but I realised how thorough the tuorial was, since I planned it to be a beginner friendly tutorial. It took me a long time to take the screenshots, edit the text, and find an aproppriate way to explain the code and the process of setting up the project. I am trying to finish this tutorial today, because I still have three tutorials to do which will be as much time consuming the first one.
+Today I am finishing up my tutorial for Player Movement. I was planning on finishing it last week, but I realised how thorough the tutorial was. Since I planned it to be a beginner friendly tutorial, it took me a long time to organise it and explain thoroughly. It took me a while to take the screenshots, explain the steps and the functions.
 
 ## 2024-12-10
-I have made another repository for my Ai-movement tutorial. It is going to be about how to make another object follow the movement of the player. I started planning on how to make it. With the help of my prototype, I already had some code and an idea of how to construct the tutorial. Nevertheless, since the tutorials have to be independent and not extend  on the previous tutorials, I still needed some time to organise how the tutorial will look.
+I have made another repository for my Ai-movement tutorial. This tutorial will explain how to make a script for an object to follow another object. I started organising the text and the script. With the help of my prototype, I already had some code and an idea of how to construct the tutorial. Nevertheless, I made a new Unity project so I could start making it from scratch.
 
 ## 2024-12-20
-I continued working on Ai-movement tutorial. I added a prerequisite on Player movement script for this tutorial so I do not have to explain thoroughly again on how to make it. I wanted this tutorial to be solely based on Ai-movement script. By setting this prerequisite, the focus will be only on Ai script. Although I had this script in my prototype game, I made a new Unity project specifically for this code so I can start explaining from scratch. Not only has it helped me to focus on this code, but it has also helped me practice this code a bit more. On the other hand, there are a lot of extra objects and scripts in my prototype game which I did not want to include in the tutorial, because it would confuse the reader. What is more, it will help me practice coding a bit more.
 
+I continued working on Ai-movement tutorial. I added some prerequisites so I would not get stuck with explaining the basics again. 
+
+For example, I gave a prerequisite for knowing how to use Unity's basic and to have a script for the Players' movement script. I wanted this tutorial to be solely based on Ai-movement script. By setting these prerequisites, the focus will be only on Ai script. Having to make a script from scratch has helped me focus on this code, but it has also helped me practice this code a bit more. I had a chance to alter the code a bit.
+On the other hand, there are a lot of extra objects and scripts in my prototype game which I did not want to include in the tutorial, because it would confuse the person who is following my tutorial. 
 
 ## 2024-12-25
-I started working on my UI tutorial. My goal is to make a tutorial on how to show a text on screen when playing a game. For now I was planning to work on a tutorial on how to make a Ui in Unity. But if I manage to finish my fourth tutorial, I would like to add some code, for example, increase a score with an if statement. For now I gathered all the information on editing the UI in Unity.
+
+I started working on my UI-arrangement tutorial. My goal is to make a tutorial on how to show a text on screen when playing a game. For now I was planning to work on a tutorial on how to make a UI in Unity. But if I manage to finish my fourth tutorial, I would like to add some code, for example, increase a score with an if statement. 
+While writing the tutorial, I spotted a little detail in the Hierarchy I have not seen before. I have not realised that when making a UI panel, it also comes with a Canvas and an Event System. After doing some reasearch and trying to give an explanation in the tutorails, it helped me understand it better.
+I spent a couple of days working on this tutorial, and trying to organise the layout.
 
 ## 2025-01-05
-Today I finished my final tutorial about the Goal manager. By explaining the events it helped me gather all the information to make it more clear for me to understand too
+Today I started working on my final tutorial, Goal manager. I managed to finish the draft in a day, but I still need some time to polish it. It was a bit more difficult than the making of the Ui tutorial, since this was more programming based. This This By gathering all the information about how the events work 
 
