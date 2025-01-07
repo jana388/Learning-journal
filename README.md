@@ -37,7 +37,7 @@ To fix this issue, I added the ball spawn in Game Controller, so after every sco
 
 ## 2024-11-18
 
-Today I will continue working on my tutorial for player-movement. I have collected all the screenshots and edited them in Procreate so they seem more interesting and easier to follow.
+Since my prototype is done, I started working on my tutorial for Player-movement. I have collected all the screenshots and edited them in Procreate so they seem more interesting and easier to follow.
 
 ## 2024-11-19
 
@@ -45,10 +45,14 @@ Today I have learned how to upload my Unity project to a GitHub repository.
 
 ## 2024-11-26
 
-During our stand up meeting, I have realised that the tutorials are supposed to be independent from our prototype game. I initially planned to make the tutorials connected in order to build my protoype gmae. That is why I have reorganised my tutorials and tried to separate them from my project. I started writing my tutorial for Player movement from scratch so it does not have any information linked to my prototype (as it used to have). other than that, I have divided my tutorials into Player movement, Ai movement (following another object), Score goal system and UI system. Although explaining the tutorials without my game to rely on might be a bit daunting, it seems like it will be easier to understand the tutorials without having to follow another.
+I initially planned to make the tutorials connected, so I wanted it to be like a step-by-step guide to a Pong game. However, during our stand up meeting, I have realised that the tutorials are supposed to be independent from our prototype game. That is why I have reorganised them and tried to separate them from my prototype.
+
+I started writing my tutorial for Player movement from scratch so it does not have any information linked to my prototype (as it used to have). I used the same code from the prototype, but have made a separate Unity project.
+
+Other than that, I did some more brainstorming on what my tutorials will be. For now I have Player movement, and Ai movement (following another object), planned, but I was thinking of making a tutorial for Score manager and UI system.
 
 ## 2024-12-03
-Today I am going to finish my first tutorial on Player Movement. I was planning on finishing it last week, but I realised how thorough the tuorial has to be. It took me a long time to take the screenshots, edit the text, and find an aproppriate way to explain the code and the process of setting up the project. I am trying to finish this tutorial today, because I still have three tutorials to do which will be as much time consuming the first one.
+Today I am finishing up my tutorial on Player Movement. I was planning on finishing it last week, but I realised how thorough the tuorial was, since I planned it to be a beginner friendly tutorial. It took me a long time to take the screenshots, edit the text, and find an aproppriate way to explain the code and the process of setting up the project. I am trying to finish this tutorial today, because I still have three tutorials to do which will be as much time consuming the first one.
 
 ## 2024-12-10
 I have made another repository for my Ai-movement tutorial. It is going to be about how to make another object follow the movement of the player. I started planning on how to make it. With the help of my prototype, I already had some code and an idea of how to construct the tutorial. Nevertheless, since the tutorials have to be independent and not extend  on the previous tutorials, I still needed some time to organise how the tutorial will look.
